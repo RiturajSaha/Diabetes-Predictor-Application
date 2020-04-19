@@ -1,5 +1,5 @@
 # Diabetes-Prediction
-Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high.
+Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Victims of this disease are increasing day by day. 
 
 In this respository, differnt classification models are used to predict if a patient is diabetic or not by taking essential patient details as input such as number of pregnancies, Plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness, 2-Hour serum insulin, Body mass index, Diabetes pedigree function, and Age to predict if the patient is diabetic or normal.   
 
