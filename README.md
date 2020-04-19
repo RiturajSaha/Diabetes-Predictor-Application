@@ -16,4 +16,4 @@ Below are the various classifciation models applied to the dataset are compared 
 
 accuracy_score is the percentage of the success of a model to predcit the independent attribute and r2_score is a statistical measure that represents the goodness of fit of a regression model. The ideal value for r2_score is 1, its range is from -1 to 1. Some other methods to determine the success of a classification model are mean_squared_error, mean_absolute_error, confusion_matrix, calssification_report. 
 
-Out of all the  Classification models above Support Vector Classification has the highest accuracy of 81.81%, this model was then deployed using flask inorder to provide a friendly and interactive interface for users.
+Out of all the  Classification models above Support Vector Classification has the highest accuracy of 81.81%, this model is deployed using flask inorder to provide a web based interactive interface for users.
