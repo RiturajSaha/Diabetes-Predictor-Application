@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+<head>
+<meta charset="utf-8">
+<title>Diabetes Predictor</title>
+<link rel="stylesheet" type="text/css"href="{{ url_for('static', filename='cssstyle.css') }}">
+</head>
+<body >
+
+
+<div align="left" > 
+<form action="{{ url_for('predict')}}"method="post"> 
+<h3>
+<br><br><br><br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 
+	
+<label >Pregnancies: </label>
+&emsp;<label>Glucose:</label><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="pregnancies">
+&emsp;<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="glucose"><br><br>	
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp; 
+<label >Blood Pressure: </label>
+&emsp;<label>Skin Thickness:</label><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="blood_pressure">
+&emsp;<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="skin_thickness"><br><br>	
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 
+<label >Insulin:</label>
+&emsp;<label >BMI:</label><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="insulin">
+&emsp;<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="bmi"><br><br>	
+
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; 
+<label >Diabetes Pedigree Function:</label>
+&emsp;<label >Age:</label><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid"name="dpf">
+&emsp;<input type="text" style="width:230px;height:25px;font-size:20px;background-color: lightblue;border: solid" name="age"><br>
+
+<h1 align="center">	
+&ensp;	
+<button type="submit"  
+		style="background-color:#4472C4;width:200px;height:50px;border: thick " 
+		class="btn btn-primary btn-block btn-large"><strong>Predict</strong></button> 
+</h1>
+</form>
+<h1 align="center">&emsp;{{ prediction_text }} </h1>
+</div> 
+</body>
+</html>
