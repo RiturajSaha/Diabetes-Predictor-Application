@@ -11,7 +11,7 @@ Below are the various classifciation models applied to the dataset are compared 
 | K Nearest Neighbor  | 75.32  | -0.1636 |
 | Naive Bayes  | 79.22  | 0.0200 |
 | Random Forest Classification  |  75.32  | -0.1636 |
-| Linear Support Vector Classification  | 70.77  | -0.3780 |
+| Linear Support Vector Classification  | 70.12  | -0.3780 |
 | Support Vector Classification  | 81.81  | 0.1425 |
 
 accuracy_score is the percentage of the success of a model to predcit the independent attribute and r2_score is a statistical measure that represents the goodness of fit of a regression model. The ideal value for r2_score is 1, its range is from -1 to 1. Some other methods to determine the success of a classification model are mean_squared_error, mean_absolute_error, confusion_matrix, calssification_report. 
