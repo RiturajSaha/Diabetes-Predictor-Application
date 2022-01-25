@@ -5,6 +5,10 @@ In this respository, a diabetes prediction application is created having machine
 
 The dataset is obtained from kaggle: https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
+Below are the screenshots:
+<p align="center"><img src="https://github.com/RiturajSaha/Diabetes-Predictor-Application/blob/master/screenshots/1.png" height=300 width="600"></p>
+<p align="center"><img src="https://github.com/RiturajSaha/Diabetes-Predictor-Application/blob/master/screenshots/2.png" height=300 width="600"></p>
+
 Below are the various classification models applied to the dataset are compared using accuracy_score r2_score:
 | Regression Models  | Accuracy | R2 Score |
 | ------------- | ------------- | ------------- |
