@@ -10,7 +10,7 @@ Below are the screenshots:
 <p align="center"><img src="https://github.com/RiturajSaha/Diabetes-Predictor-Application/blob/master/screenshots/2.png" height=300 width="600"></p>
 
 Below are the various classification models applied to the dataset are compared using accuracy_score r2_score:
-| Regression Models  | Accuracy | R2 Score |
+| Regression Models  | Accuracy Score| R2 Score |
 | ------------- | ------------- | ------------- |
 | K Nearest Neighbor  | 75.32  | -0.1636 |
 | Naive Bayes  | 79.22  | 0.0200 |
@@ -20,5 +20,5 @@ Below are the various classification models applied to the dataset are compared 
 
 accuracy_score is the percentage of the success of a model to predcit the independent attribute and r2_score is a statistical measure that represents the goodness of fit of a regression model. The ideal value for r2_score is 1, its range is from -1 to 1. Some other methods to determine the success of a classification model are mean_squared_error, mean_absolute_error, confusion_matrix, calssification_report. 
 
-Out of all the  Classification models above Support Vector Classification has the highest accuracy of 81.81%, this model is deployed using flask inorder to provide a web based interactive interface for users.
+Out of all the  Classification models above, Support Vector Classification has the highest accuracy of 81.81%, this model is deployed using flask inorder to provide a web based interactive interface for users.
 
