@@ -4,6 +4,7 @@ Diabetes is a disease that occurs when your blood glucose, also called blood sug
 In this respository, a diabetes prediction application is created having machine learning frontend and web based backend. Here different classification models are used to predict if a patient is diabetic or not by taking essential patient details as input such as number of pregnancies, Plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness, 2-Hour serum insulin, Body mass index, Diabetes pedigree function, and Age to predict if the patient is diabetic or normal.   
 
 The dataset is obtained from kaggle: https://www.kaggle.com/uciml/pima-indians-diabetes-database
+Functioning of the application: https://github.com/RiturajSaha/Diabetes-Predictor-Application/blob/master/Diabetes%20Predictor%20Application%20Test.mp4
 
 Below are the screenshots:
 <p align="center"><img src="https://github.com/RiturajSaha/Diabetes-Predictor-Application/blob/master/screenshots/1.png" height=300 width="600"></p>
